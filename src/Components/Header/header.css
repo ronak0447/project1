@@ -1,0 +1,14 @@
+.header {
+    width:100%;
+    background-color: black;
+    height: 5vh;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+.header > a {
+    text-decoration: none;
+    color: white;
+    margin: 2vmax 2vmax;
+    
+}

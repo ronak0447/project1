@@ -1,0 +1,79 @@
+.container {
+    width: 100%;
+}
+.Heading {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vmax;
+    height: 6vh;
+    font:600 3.2vmax "Roboto";
+    border-bottom: 1px solid lightgray;
+}
+.loginBox{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 50vh;
+    margin-left: 25%;
+    /* align-items: center; */
+    justify-content: center;
+    background-color: rgba(182, 177, 177, 0.507);
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.email {
+    /* padding: 1vmax; */
+    margin: 1vmax;
+    width: 80%;
+
+}
+
+.email >svg{
+    position: absolute;
+    left: 29.5%;
+    top: 30%;
+    font-size: 2vmax;
+}
+.email > input {
+    width: 90%;
+    border: none;
+    height: 3vh;
+    margin-left: 7%;
+    padding-left: 3vmax;
+}
+.password {
+    width: 90%;
+    /* padding: 1vmax; */
+    margin: 1vmax;
+    border-radius: 5px;
+}
+.password >svg{
+    position: absolute;
+    left: 29.5%;
+    top: 35%;
+    font-size: 2vmax;
+}
+.password > input {
+    width: 80%;
+    border: none;
+    height: 3vh;
+    margin-left: 6%;
+    padding-left: 3vmax;
+}
+ button {
+    width: 80%;
+    margin-left: 6%;
+    margin-right: auto;
+    margin-top: 5vmax;
+    height: 4vh;
+    border: none;
+    color:white;
+    font-size: 2vmax;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: tomato;
+}
+

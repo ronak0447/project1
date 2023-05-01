@@ -1,0 +1,92 @@
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.boxs1 {
+    width: 99.9%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: antiquewhite;
+
+}
+.Formbox{
+    margin-top: 2%;
+    width: 30%;
+    height: 10vh;
+    padding: 1vmax 3vmax;
+    border-radius: 5px;
+}
+.Name {
+    margin: 1vmax;
+    width: 80%;
+}
+.Name > input {
+    width: 100%;
+    outline: none;
+    border: none;
+    height: 3vh;
+    margin-left: 6%;
+    padding-left: 3vmax;
+    margin: auto;
+}
+.Email {
+    margin: 1vmax;
+    width: 80%;
+}
+.Email > input {
+    width: 100%;
+    border: none;
+    height: 3vh;
+    outline: none;
+    margin: auto;
+    margin-left: 0%;
+    padding-left: 3vmax;
+}
+.Address {
+    margin: 1vmax;
+    width: 80%;
+}
+.Address > input {
+    width: 100%;
+    border: none;
+    outline: none;
+    margin: auto;
+    height: 3vh;
+    margin-left: 0%;
+    padding-left: 3vmax;
+}
+.ADDED {
+    width: 20%;
+    margin: auto;
+    margin-right: 40%;
+    height: 3vh;
+    border: none;
+    color:white;
+    font-size: 2vmax;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: tomato;
+}
+.boxs2 {
+    width: 99.9%;
+    border: 1px solid black;
+    height: 70vh;
+}
+.search {
+    width: 100%;
+    background-color: black;
+    border: 1px solid black;
+    text-align: center;
+}
+.search > input {
+    width: 50%;
+    height: 4vh;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    padding-left: 2vmax;
+}
